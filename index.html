@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Restaurant Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="bobby-top">
+  <div class="bobby-bar bobby-white bobby-padding bobby-card" style="letter-spacing:4px;">
+    <a href="#home" class="bobby-bar-item bobby-button">Template Restaurant Website</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="bobby-right bobby-hide-small">
+      <a href="#about" class="bobby-bar-item bobby-button">About</a>
+      <a href="#menu" class="bobby-bar-item bobby-button">Menu</a>
+      <a href="#contact" class="bobby-bar-item bobby-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="bobby-display-container bobby-content bobby-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="bobby-image" src="images/bg1.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="bobby-display-bottomleft bobby-padding-large bobby-opacity">
+    <h1 class="bobby-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="bobby-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="bobby-row bobby-padding-64" id="about">
+    <div class="bobby-col m6 bobby-padding-large bobby-hide-small">
+     <img src="images/bg2.jpg" class="bobby-round bobby-image bobby-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="bobby-col m6 bobby-padding-large">
+      <h1 class="bobby-center">About Catering</h1><br>
+      <h5 class="bobby-center">Tradition since 1889</h5>
+      <p class="bobby-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="bobby-tag bobby-light-grey">seasonal</span> ingredients.</p>
+      <p class="bobby-large bobby-text-grey bobby-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="bobby-row bobby-padding-64" id="menu">
+    <div class="bobby-col l6 bobby-padding-large">
+      <h1 class="bobby-center">Our Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="bobby-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="bobby-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="bobby-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="bobby-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="bobby-text-grey">With syrup, butter and lots of berries 8.50</p>    
+    </div>
+    
+    <div class="bobby-col l6 bobby-padding-large">
+      <img src="images/bg3.jpg" class="bobby-round bobby-image bobby-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="bobby-container bobby-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="bobby-text-blue-grey bobby-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="bobby-input bobby-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="bobby-input bobby-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="bobby-input bobby-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="bobby-input bobby-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="bobby-button bobby-light-grey bobby-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="bobby-center bobby-light-grey bobby-padding-32">
+  <p>Powered by <a href="https://www.bobbyschools.com/bobbycss/default.asp" title="bobby.CSS" target="_blank" class="bobby-hover-text-green">bobby.css</a></p>
+</footer>
+
+</body>
+</html>
